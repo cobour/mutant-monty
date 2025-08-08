@@ -1,20 +1,20 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "left",
+  "DefaultLookDir": "down",
   "Recycle": "Default",
   "MoveType": "control",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 8,
   "Idles": {
-    "UpLeft": "player_up_anim",
-    "Up": "player_up_anim",
-    "UpRight": "player_up_anim",
-    "Left": "player_left_anim",
-    "Right": "player_right_anim",
-    "DownLeft": "player_down_anim",
-    "Down": "player_down_anim",
-    "DownRight": "player_down_anim"
+    "UpLeft": "player_up_idle_anim",
+    "Up": "player_up_idle_anim",
+    "UpRight": "player_up_idle_anim",
+    "Left": "player_left_idle_anim",
+    "Right": "player_right_idle_anim",
+    "DownLeft": "player_down_idle_anim",
+    "Down": "player_down_idle_anim",
+    "DownRight": "player_down_idle_anim"
   },
   "Moves": {
     "UpLeft": "player_up_anim",
