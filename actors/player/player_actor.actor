@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "down",
   "Recycle": "Default",
-  "MoveType": "control",
+  "MoveType": "control_tilebased",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 8,
