@@ -1,6 +1,6 @@
 {
   "TargetPlatform": "amiga_ocs",
-  "StartupCodeBlock": "startup",
+  "StartupCodeBlock": "main_begin_codeblock",
   "Recompile": true,
   "DataVersion": 3,
   "Commands": [
