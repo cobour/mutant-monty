@@ -126,6 +126,24 @@
       "PaletteLine_NeoGeo": 15,
       "MaxValue": 9,
       "CanBeRightToLeft": false
+    },
+    {
+      "PanelElementType": 1,
+      "Variable": "var_lives",
+      "X": 0,
+      "Y": 0,
+      "NumberFont": null,
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": "actors\\player\\anim\\Player_V02_00x00.png",
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "MaxValue": 5,
+      "CanBeRightToLeft": true
     }
   ],
   "GFXMode": "EHB",
