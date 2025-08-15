@@ -144,6 +144,24 @@
       "PaletteLine_NeoGeo": 15,
       "MaxValue": 5,
       "CanBeRightToLeft": true
+    },
+    {
+      "PanelElementType": 3,
+      "Variable": "var_levelname",
+      "X": 0,
+      "Y": 24,
+      "NumberFont": null,
+      "Font": "defaultfont",
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "MaxValue": 9,
+      "CanBeRightToLeft": false
     }
   ],
   "GFXMode": "EHB",
