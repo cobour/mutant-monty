@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
- <layer id="1" name="map" width="20" height="12">
+ <layer id="1" name="map" width="20" height="10">
   <properties>
    <property name="amiga_ocs" type="bool" value="true"/>
    <property name="foreground" type="bool" value="false"/>
   </properties>
   <data encoding="csv">
-513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
 542,543,543,563,522,523,524,525,526,524,513,522,544,526,524,559,546,543,566,513,
 513,513,513,564,543,565,543,543,565,566,513,564,543,543,543,543,566,513,513,513,
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
@@ -19,18 +18,15 @@
 513,545,513,513,535,513,546,543,543,566,513,513,513,513,513,513,513,513,545,513,
 513,545,513,513,535,513,564,543,543,543,543,543,543,565,543,543,565,543,566,513,
 513,564,543,543,566,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
-513,513,513,513,513,513,516,516,516,516,516,516,516,516,513,516,516,516,516,513,
-513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513
+513,513,513,513,513,513,516,516,516,516,516,516,516,516,513,516,516,516,516,513
 </data>
  </layer>
- <layer id="2" name="blocks" width="20" height="12" visible="0">
+ <layer id="2" name="blocks" width="20" height="10" visible="0">
   <properties>
    <property name="amiga_ocs" type="bool" value="true"/>
    <property name="foreground" type="bool" value="false"/>
   </properties>
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -43,34 +39,30 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="actors" width="20" height="12">
+ <layer id="3" name="actors" width="20" height="10">
   <properties>
    <property name="amiga_ocs" type="bool" value="true"/>
    <property name="foreground" type="bool" value="false"/>
   </properties>
   <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
 </data>
  </layer>
- <layer id="4" name="foreground" width="20" height="12" visible="0">
+ <layer id="4" name="foreground" width="20" height="10" visible="0">
   <properties>
    <property name="amiga_ocs" type="bool" value="true"/>
    <property name="foreground" type="bool" value="true"/>
   </properties>
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
