@@ -149,7 +149,7 @@
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
   "DivertTimer": "player_timer_codeblock",
-  "DivertTimerFrames": 50,
+  "DivertTimerFrames": 25,
   "Vars": [
     "0",
     "0",
