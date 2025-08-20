@@ -140,7 +140,7 @@
         "Down": "0"
       },
       "YRes": "160",
-      "FrameWait": "1",
+      "FrameWait": "2",
       "CameraFollowLeft": true,
       "CameraFollowRight": true,
       "CameraFollowUp": true,

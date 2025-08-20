@@ -1,5 +1,5 @@
 {
-  "OutputSpeed": "PAL_50HZ",
+  "OutputSpeed": "PAL_25HZ",
   "GFXMode": "EHB",
   "MemorySaver": "None",
   "EmulatedAmiga": "A500",
