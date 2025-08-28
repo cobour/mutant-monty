@@ -1,0 +1,41 @@
+{
+  "BlockImagePath": "blocks\\exit\\gfx\\EXIT_001.png",
+  "X": 0,
+  "Y": 48,
+  "Divert_PlayerCollision": "exit_player_collision_codeblock",
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": null,
+  "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": "",
+  "FastBlit": false,
+  "IsInvisible": false,
+  "ReplaceTileProperties": true,
+  "LinkedMap": "",
+  "BlockSolidType": "NotSolid",
+  "PlayerCollisionOverride": "Default",
+  "ProjectileCollisionOverride": "Default",
+  "PaletteLines": [
+    [
+      null,
+      null
+    ],
+    [
+      null,
+      null
+    ]
+  ],
+  "Priorities": [
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false
+    ]
+  ],
+  "ZeroIsTransparent": false,
+  "PaletteLineNeo": 0,
+  "BlockTag": null,
+  "TileID": 15
+}

@@ -31,4 +31,84 @@
       <property name="Name" value="gold_zoom_4_block" type="string" />
     </properties>
   </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="exit_closed_left_top_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="7">
+    <properties>
+      <property name="Name" value="exit_closed_right_top_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="8">
+    <properties>
+      <property name="Name" value="exit_closed_left_bottom_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="9">
+    <properties>
+      <property name="Name" value="exit_closed_right_bottom_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="10">
+    <properties>
+      <property name="Name" value="exit_closed_left_top_1_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="11">
+    <properties>
+      <property name="Name" value="exit_closed_left_top_2_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="12">
+    <properties>
+      <property name="Name" value="exit_closed_right_top_1_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="13">
+    <properties>
+      <property name="Name" value="exit_closed_right_top_2_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="14">
+    <properties>
+      <property name="Name" value="exit_open_left_top_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="15">
+    <properties>
+      <property name="Name" value="exit_open_left_bottom_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="16">
+    <properties>
+      <property name="Name" value="exit_open_right_top_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="17">
+    <properties>
+      <property name="Name" value="exit_open_right_bottom_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="18">
+    <properties>
+      <property name="Name" value="exit_open_left_top_1_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="19">
+    <properties>
+      <property name="Name" value="exit_open_left_top_2_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="20">
+    <properties>
+      <property name="Name" value="exit_open_right_top_1_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="21">
+    <properties>
+      <property name="Name" value="exit_open_right_top_2_block" type="string" />
+    </properties>
+  </tile>
 </tileset>
