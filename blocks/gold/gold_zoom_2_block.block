@@ -1,5 +1,5 @@
 {
-  "BlockImagePath": "blocks\\gold\\gfx\\GOLD_001.png",
+  "BlockImagePath": "blocks\\gold\\gfx\\GOLD_004b.png",
   "X": 48,
   "Y": 0,
   "Divert_PlayerCollision": null,
