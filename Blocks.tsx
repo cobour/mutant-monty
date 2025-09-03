@@ -111,4 +111,44 @@
       <property name="Name" value="exit_open_right_top_2_block" type="string" />
     </properties>
   </tile>
+  <tile id="22">
+    <properties>
+      <property name="Name" value="gold_shimmer_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="23">
+    <properties>
+      <property name="Name" value="gold_shimmer_1_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="24">
+    <properties>
+      <property name="Name" value="gold_shimmer_2_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="25">
+    <properties>
+      <property name="Name" value="gold_shimmer_3_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="26">
+    <properties>
+      <property name="Name" value="gold_shimmer_4_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="27">
+    <properties>
+      <property name="Name" value="gold_shimmer_5_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="28">
+    <properties>
+      <property name="Name" value="gold_shimmer_6_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="29">
+    <properties>
+      <property name="Name" value="gold_shimmer_7_block" type="string" />
+    </properties>
+  </tile>
 </tileset>
