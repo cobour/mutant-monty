@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="5">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
@@ -57,7 +57,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="4" name="foreground" width="20" height="10" visible="0">
+ <layer id="4" name="foreground" width="20" height="10">
   <properties>
    <property name="amiga_ocs" type="bool" value="true"/>
    <property name="foreground" type="bool" value="true"/>
@@ -75,5 +75,13 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="events" visible="0"/>
+ <objectgroup id="6" name="events">
+  <object id="4" template="../templates/enemy_green_two_eye_actor.tx" x="256" y="112">
+   <properties>
+    <property name="var1" value="2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

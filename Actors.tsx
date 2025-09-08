@@ -6,4 +6,9 @@
       <property name="Name" value="player_actor" type="string" />
     </properties>
   </tile>
+  <tile id="1">
+    <properties>
+      <property name="Name" value="enemy_green_two_eye_actor" type="string" />
+    </properties>
+  </tile>
 </tileset>
