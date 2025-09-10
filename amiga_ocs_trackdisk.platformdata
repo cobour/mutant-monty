@@ -4,7 +4,7 @@
   "MemorySaver": "None",
   "EmulatedAmiga": "A500",
   "EmulatedFastRam": 0,
-  "WinUAEConfiguration": "A500_1MB.uae",
+  "WinUAEConfiguration": "A500_1MB_TD.uae",
   "SpriteMode": "Mode_0_16_Wide",
   "Uses24BitColor": null,
   "SpriteColorBank": 1,
