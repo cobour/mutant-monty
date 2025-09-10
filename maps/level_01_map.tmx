@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="5">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="8">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
@@ -76,11 +76,36 @@
 </data>
  </layer>
  <objectgroup id="6" name="events">
-  <object id="4" template="../templates/enemy_green_two_eye_actor.tx" x="256" y="112">
+  <object id="4" template="../templates/enemy_green_two_eye_actor.tx" x="160" y="112">
    <properties>
     <property name="var1" value="2"/>
     <property name="var2" value="0"/>
-    <property name="var3" value="1"/>
+    <property name="var3" value="152"/>
+    <property name="var4" value="264"/>
+   </properties>
+  </object>
+  <object id="5" template="../templates/enemy_green_two_eye_actor.tx" x="64" y="48">
+   <properties>
+    <property name="var1" value="3"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="24"/>
+    <property name="var4" value="248"/>
+   </properties>
+  </object>
+  <object id="6" template="../templates/enemy_green_two_eye_actor.tx" x="272" y="144">
+   <properties>
+    <property name="var1" value="-2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="72"/>
+    <property name="var4" value="296"/>
+   </properties>
+  </object>
+  <object id="7" template="../templates/enemy_green_two_eye_actor.tx" x="304" y="80">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="24"/>
+    <property name="var4" value="136"/>
    </properties>
   </object>
  </objectgroup>
