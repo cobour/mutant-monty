@@ -151,4 +151,9 @@
       <property name="Name" value="gold_shimmer_7_block" type="string" />
     </properties>
   </tile>
+  <tile id="30">
+    <properties>
+      <property name="Name" value="exit_invisible_block" type="string" />
+    </properties>
+  </tile>
 </tileset>
