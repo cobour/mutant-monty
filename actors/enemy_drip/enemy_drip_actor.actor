@@ -104,10 +104,10 @@
     false
   ],
   "CollBox": {
-    "X": -6,
-    "Y": -8,
-    "Width": 12,
-    "Height": 16
+    "X": -5,
+    "Y": -7,
+    "Width": 9,
+    "Height": 14
   },
   "AttackDelay": 0,
   "ZOrder": 0,
