@@ -84,7 +84,7 @@
    <properties>
     <property name="var1" value="2"/>
     <property name="var2" value="0"/>
-    <property name="var3" value="168"/>
+    <property name="var3" value="152"/>
     <property name="var4" value="264"/>
    </properties>
   </object>

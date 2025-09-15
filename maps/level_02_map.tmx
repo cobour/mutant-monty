@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="1">
-  <properties />
-  <tileset firstgid="1" source="../Actors.tsx" />
-  <tileset firstgid="257" source="../Blocks.tsx" />
-  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx" />
-  <layer id="1" name="map" width="20" height="10">
-    <data encoding="csv">
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="7">
+ <tileset firstgid="1" source="../Actors.tsx"/>
+ <tileset firstgid="257" source="../Blocks.tsx"/>
+ <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
+ <layer id="1" name="map" width="20" height="10">
+  <properties>
+   <property name="amiga_ocs" type="bool" value="true"/>
+   <property name="amiga_ocs_trackdisk" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="false"/>
+  </properties>
+  <data encoding="csv">
 535,535,535,513,513,513,546,513,513,543,563,513,513,513,535,535,513,513,513,513,
 535,535,513,513,513,546,566,513,513,513,545,513,513,513,513,535,513,513,513,513,
 535,513,513,513,546,566,513,513,513,513,564,565,565,563,513,513,513,535,535,513,
@@ -13,18 +17,18 @@
 513,513,513,564,543,543,563,513,513,513,513,513,513,521,513,521,513,521,513,513,
 513,513,513,513,513,513,545,513,513,513,513,513,513,521,513,521,513,521,513,513,
 534,513,513,534,543,543,566,513,513,513,513,513,513,513,513,513,513,513,513,513,
-534,513,513,534,513,513,513,513,513,513,521,521,513,521,513,521,513,521,513,513,
-534,513,513,513,513,513,513,513,513,521,521,521,513,521,513,521,513,521,513,513,
-534,516,516,516,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513
+534,513,513,534,513,513,513,513,513,513,0,0,513,0,513,0,0,0,513,513,
+534,513,513,513,513,513,513,513,513,0,521,521,513,521,513,521,513,521,513,513,
+534,516,516,516,513,513,513,513,513,521,521,521,513,521,513,521,513,521,513,513
 </data>
-    <properties>
-      <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="false" />
-      <property name="amiga_ocs_trackdisk" type="bool" value="true" />
-    </properties>
-  </layer>
-  <layer id="2" name="blocks" width="20" height="10">
-    <data encoding="csv">
+ </layer>
+ <layer id="2" name="blocks" width="20" height="10">
+  <properties>
+   <property name="amiga_ocs" type="bool" value="true"/>
+   <property name="amiga_ocs_trackdisk" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="false"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,257,0,263,264,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,265,266,0,0,257,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -36,14 +40,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-    <properties>
-      <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="false" />
-      <property name="amiga_ocs_trackdisk" type="bool" value="true" />
-    </properties>
-  </layer>
-  <layer id="3" name="actors" width="20" height="10">
-    <data encoding="csv">
+ </layer>
+ <layer id="3" name="actors" width="20" height="10">
+  <properties>
+   <property name="amiga_ocs" type="bool" value="true"/>
+   <property name="amiga_ocs_trackdisk" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="false"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -53,16 +57,16 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-    <properties>
-      <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="false" />
-      <property name="amiga_ocs_trackdisk" type="bool" value="true" />
-    </properties>
-  </layer>
-  <layer id="4" name="foreground" width="20" height="10">
-    <data encoding="csv">
+ </layer>
+ <layer id="4" name="foreground" width="20" height="10">
+  <properties>
+   <property name="amiga_ocs" type="bool" value="true"/>
+   <property name="amiga_ocs_trackdisk" type="bool" value="true"/>
+   <property name="foreground" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -74,11 +78,47 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-    <properties>
-      <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="true" />
-      <property name="amiga_ocs_trackdisk" type="bool" value="true" />
-    </properties>
-  </layer>
-  <objectgroup id="6" name="events" />
+ </layer>
+ <objectgroup id="6" name="events">
+  <object id="1" template="../templates/enemy_drip_actor.tx" x="19" y="112" width="11" height="16">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="40"/>
+    <property name="var4" value="120"/>
+   </properties>
+  </object>
+  <object id="2" template="../templates/enemy_drip_actor.tx" x="35" y="48" width="11" height="16">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="3"/>
+    <property name="var3" value="27"/>
+    <property name="var4" value="120"/>
+   </properties>
+  </object>
+  <object id="3" template="../templates/enemy_whitemask_actor.tx" x="49" y="142" width="14" height="12">
+   <properties>
+    <property name="var1" value="2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="26"/>
+    <property name="var4" value="136"/>
+   </properties>
+  </object>
+  <object id="4" template="../templates/enemy_drip_actor.tx" x="226" y="96" width="11" height="16">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="-2"/>
+    <property name="var3" value="72"/>
+    <property name="var4" value="152"/>
+   </properties>
+  </object>
+  <object id="6" template="../templates/enemy_drip_actor.tx" x="259" y="144">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="72"/>
+    <property name="var4" value="152"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
