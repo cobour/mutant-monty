@@ -11,4 +11,14 @@
       <property name="Name" value="enemy_green_two_eye_actor" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="enemy_whitemask_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="enemy_drip_actor" type="string" />
+    </properties>
+  </tile>
 </tileset>
