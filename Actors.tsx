@@ -21,4 +21,24 @@
       <property name="Name" value="enemy_drip_actor" type="string" />
     </properties>
   </tile>
+  <tile id="4">
+    <properties>
+      <property name="Name" value="enemy_axe_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="5">
+    <properties>
+      <property name="Name" value="enemy_lift_green_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="enemy_lift_red_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="7">
+    <properties>
+      <property name="Name" value="enemy_boot_actor" type="string" />
+    </properties>
+  </tile>
 </tileset>

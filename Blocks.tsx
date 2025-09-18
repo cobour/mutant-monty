@@ -156,4 +156,44 @@
       <property name="Name" value="exit_invisible_block" type="string" />
     </properties>
   </tile>
+  <tile id="31">
+    <properties>
+      <property name="Name" value="wheel_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="32">
+    <properties>
+      <property name="Name" value="wheel_1_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="33">
+    <properties>
+      <property name="Name" value="wheel_2_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="34">
+    <properties>
+      <property name="Name" value="wheel_3_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="35">
+    <properties>
+      <property name="Name" value="wheel_4_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="36">
+    <properties>
+      <property name="Name" value="wheel_5_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="37">
+    <properties>
+      <property name="Name" value="liftchain_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="38">
+    <properties>
+      <property name="Name" value="liftchain_empty_block" type="string" />
+    </properties>
+  </tile>
 </tileset>

@@ -2,7 +2,7 @@
   "BlockImagePath": "blocks\\exit\\gfx\\EXIT_001.png",
   "X": 0,
   "Y": 48,
-  "Divert_PlayerCollision": "exit_player_collision_codeblock",
+  "Divert_PlayerCollision": "",
   "Divert_PlayerHit": null,
   "Divert_PlayerOverlap": null,
   "Divert_ProjectileCollision": null,
