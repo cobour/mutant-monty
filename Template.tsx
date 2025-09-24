@@ -41,4 +41,9 @@
       <property name="Name" value="enemy_boot_actor" type="string" />
     </properties>
   </tile>
+  <tile id="8">
+    <properties>
+      <property name="Name" value="enemy_puter_actor" type="string" />
+    </properties>
+  </tile>
 </tileset>
