@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="7">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
@@ -18,8 +18,8 @@
 564,543,543,563,513,513,513,513,513,513,513,513,564,566,534,534,534,560,534,513,
 513,513,513,545,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
 513,546,543,566,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
-513,545,513,513,513,513,513,513,513,513,546,543,516,516,516,516,516,516,516,516,
-513,564,543,543,565,543,543,565,543,543,566,513,513,513,513,513,513,513,513,513
+513,545,513,513,513,513,513,513,513,513,513,546,543,516,516,516,516,516,516,516,
+513,564,543,543,565,543,543,565,543,543,543,566,513,513,513,513,513,513,513,513
 </data>
  </layer>
  <layer id="2" name="blocks" width="20" height="10">
@@ -37,7 +37,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,257,0,0,0,0,0,0,257,0,0,0,0,0,0,0,0,0,0,
+0,0,257,0,0,0,0,0,0,0,257,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
@@ -79,5 +79,54 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="events"/>
+ <objectgroup id="6" name="events">
+  <object id="1" template="../templates/enemy_boot_actor.tx" x="288" y="110">
+   <properties>
+    <property name="var1" value="-2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="232"/>
+    <property name="var4" value="312"/>
+   </properties>
+  </object>
+  <object id="2" template="../templates/enemy_boot_actor.tx" x="160" y="126">
+   <properties>
+    <property name="var1" value="3"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="168"/>
+    <property name="var4" value="312"/>
+   </properties>
+  </object>
+  <object id="3" template="../templates/enemy_boot_actor.tx" x="32" y="62">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="40"/>
+    <property name="var4" value="72"/>
+   </properties>
+  </object>
+  <object id="4" template="../templates/enemy_boot_actor.tx" x="64" y="62">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="40"/>
+    <property name="var4" value="136"/>
+   </properties>
+  </object>
+  <object id="5" template="../templates/enemy_boot_actor.tx" x="64" y="30">
+   <properties>
+    <property name="var1" value="2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="40"/>
+    <property name="var4" value="136"/>
+   </properties>
+  </object>
+  <object id="6" template="../templates/enemy_boot_actor.tx" x="144" y="62">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="-3"/>
+    <property name="var3" value="40"/>
+    <property name="var4" value="168"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
