@@ -22,8 +22,8 @@
   "AllocateMemoryUpfront": true,
   "NTSC": false,
   "CrunchMode": "Implode",
-  "MaxActiveActors": 32,
-  "MaxDormantActors": 128,
+  "MaxActiveActors": 12,
+  "MaxDormantActors": 12,
   "DynamicPatterns": 0,
   "PaletteLines": 1,
   "StartingPaletteLine": 0
