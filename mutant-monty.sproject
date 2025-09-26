@@ -71,8 +71,18 @@
   "Anim5MetaData": {},
   "SoundMetaData": {},
   "MMLMetaData": {},
-  "NumberFontMetaData": {},
-  "FontMetaData": {},
+  "NumberFontMetaData": {
+    "defaultnumberfont": {
+      "Radix": 10
+    }
+  },
+  "FontMetaData": {
+    "defaultfont": {
+      "IsMonoSpaced": false,
+      "LineHeight": 8,
+      "SpaceWidth": 8
+    }
+  },
   "SplashScreen": null,
   "LogicSpeed": "PAL_25HZ",
   "ReadCD32Buttons": false,
