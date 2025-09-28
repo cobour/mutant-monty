@@ -161,7 +161,7 @@
   "ControlPort": 0,
   "DataVersion": 6,
   "ActorTag": "None",
-  "AutoSpawn": true,
+  "AutoSpawn": false,
   "AutoNavigate": false,
   "ActorTimeline": {
     "TimelineFrames": {
