@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="7">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
@@ -79,5 +79,54 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="events"/>
+ <objectgroup id="6" name="events">
+  <object id="1" template="../templates/enemy_green_two_eye_actor.tx" x="80" y="16">
+   <properties>
+    <property name="var1" value="-2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="56"/>
+    <property name="var4" value="264"/>
+   </properties>
+  </object>
+  <object id="2" template="../templates/enemy_green_two_eye_actor.tx" x="136" y="64">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="56"/>
+    <property name="var4" value="94"/>
+   </properties>
+  </object>
+  <object id="3" template="../templates/enemy_whitemask_actor.tx" x="33" y="142">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="116"/>
+    <property name="var4" value="160"/>
+   </properties>
+  </object>
+  <object id="4" template="../templates/enemy_whitemask_actor.tx" x="177" y="158">
+   <properties>
+    <property name="var1" value="1"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="152"/>
+    <property name="var4" value="304"/>
+   </properties>
+  </object>
+  <object id="5" template="../templates/enemy_whitemask_actor.tx" x="225" y="46">
+   <properties>
+    <property name="var1" value="-1"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="182"/>
+    <property name="var4" value="298"/>
+   </properties>
+  </object>
+  <object id="6" template="../templates/enemy_whitemask_actor.tx" x="305" y="54">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="-2"/>
+    <property name="var3" value="30"/>
+    <property name="var4" value="144"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
