@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="8">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
@@ -79,5 +79,64 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="events"/>
+ <objectgroup id="6" name="events">
+  <object id="1" template="../templates/enemy_camel_actor.tx" x="144" y="15">
+   <properties>
+    <property name="var1" value="-1"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="0"/>
+    <property name="var4" value="172"/>
+   </properties>
+  </object>
+  <object id="2" template="../templates/enemy_camel_actor.tx" x="112" y="111">
+   <properties>
+    <property name="var1" value="-1"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="16"/>
+    <property name="var4" value="240"/>
+   </properties>
+  </object>
+  <object id="3" template="../templates/enemy_camel_actor.tx" x="224" y="47">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="-2"/>
+    <property name="var3" value="0"/>
+    <property name="var4" value="200"/>
+   </properties>
+  </object>
+  <object id="4" template="../templates/enemy_camel_actor.tx" x="240" y="127">
+   <properties>
+    <property name="var1" value="-2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="76"/>
+    <property name="var4" value="312"/>
+    <property name="var5" value=""/>
+   </properties>
+  </object>
+  <object id="5" template="../templates/enemy_camel_actor.tx" x="32" y="127">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="84"/>
+    <property name="var4" value="160"/>
+   </properties>
+  </object>
+  <object id="6" template="../templates/enemy_camel_actor.tx" x="16" y="79">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="0"/>
+    <property name="var4" value="92"/>
+    <property name="var5" value=""/>
+   </properties>
+  </object>
+  <object id="7" template="../templates/enemy_camel_actor.tx" x="64" y="79">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="-2"/>
+    <property name="var3" value="0"/>
+    <property name="var4" value="90"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
