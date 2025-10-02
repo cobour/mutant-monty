@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="7">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
@@ -36,7 +36,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,257,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,536,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,257,0,0,0,
 257,0,0,0,0,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
@@ -79,5 +79,54 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="events"/>
+ <objectgroup id="6" name="events">
+  <object id="1" template="../templates/enemy_chip_actor.tx" x="146" y="111">
+   <properties>
+    <property name="var1" value="3"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="134"/>
+    <property name="var4" value="286"/>
+   </properties>
+  </object>
+  <object id="2" template="../templates/enemy_chip_actor.tx" x="114" y="143">
+   <properties>
+    <property name="var1" value="-1"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="0"/>
+    <property name="var4" value="320"/>
+   </properties>
+  </object>
+  <object id="3" template="../templates/enemy_chip_actor.tx" x="226" y="95">
+   <properties>
+    <property name="var1" value="2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="0"/>
+    <property name="var4" value="298"/>
+   </properties>
+  </object>
+  <object id="4" template="../templates/enemy_chip_actor.tx" x="298" y="111">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="-2"/>
+    <property name="var3" value="22"/>
+    <property name="var4" value="127"/>
+   </properties>
+  </object>
+  <object id="5" template="../templates/enemy_chip_actor.tx" x="98" y="31">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="0"/>
+    <property name="var4" value="160"/>
+   </properties>
+  </object>
+  <object id="6" template="../templates/enemy_chip_actor.tx" x="18" y="111">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="-3"/>
+    <property name="var3" value="36"/>
+    <property name="var4" value="128"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

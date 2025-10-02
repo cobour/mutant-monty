@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="7">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
@@ -79,5 +79,54 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="events"/>
+ <objectgroup id="6" name="events">
+  <object id="1" template="../templates/enemy_big_rocket_actor.tx" x="48" y="42">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="0"/>
+    <property name="var4" value="57"/>
+   </properties>
+  </object>
+  <object id="2" template="../templates/enemy_big_rocket_actor.tx" x="288" y="39">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="0"/>
+    <property name="var4" value="73"/>
+   </properties>
+  </object>
+  <object id="3" template="../templates/enemy_big_rocket_actor.tx" x="256" y="39">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="-3"/>
+    <property name="var3" value="0"/>
+    <property name="var4" value="105"/>
+   </properties>
+  </object>
+  <object id="4" template="../templates/enemy_plane_actor.tx" x="112" y="160">
+   <properties>
+    <property name="var1" value="-1"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="35"/>
+    <property name="var4" value="132"/>
+   </properties>
+  </object>
+  <object id="5" template="../templates/enemy_plane_actor.tx" x="144" y="96">
+   <properties>
+    <property name="var1" value="2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="110"/>
+    <property name="var4" value="228"/>
+   </properties>
+  </object>
+  <object id="6" template="../templates/enemy_plane_actor.tx" x="128" y="32">
+   <properties>
+    <property name="var1" value="1"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="76"/>
+    <property name="var4" value="242"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
