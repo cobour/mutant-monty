@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="4">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
@@ -15,8 +15,8 @@
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
-513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
 560,560,560,560,560,560,560,560,560,513,513,560,560,560,560,560,560,560,560,560,
+0,0,0,0,0,0,0,0,0,513,513,0,0,0,0,0,0,0,0,0,
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
 513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,
 516,516,516,513,516,516,513,516,516,513,516,516,513,516,516,516,520,513,513,513
@@ -79,5 +79,30 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="events"/>
+ <objectgroup id="6" name="events">
+  <object id="1" template="../templates/enemy_big_bike_actor.tx" x="228" y="142">
+   <properties>
+    <property name="var1" value="-1"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="8"/>
+    <property name="var4" value="248"/>
+   </properties>
+  </object>
+  <object id="2" template="../templates/enemy_big_bike_actor.tx" x="228" y="120">
+   <properties>
+    <property name="var1" value="3"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="8"/>
+    <property name="var4" value="248"/>
+   </properties>
+  </object>
+  <object id="3" template="../templates/enemy_big_bike_actor.tx" x="128" y="68">
+   <properties>
+    <property name="var1" value="-1"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="24"/>
+    <property name="var4" value="228"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
