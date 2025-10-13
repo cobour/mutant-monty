@@ -111,4 +111,74 @@
       <property name="Name" value="enemy_big_bike_actor" type="string" />
     </properties>
   </tile>
+  <tile id="22">
+    <properties>
+      <property name="Name" value="enemy_big_blue_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="23">
+    <properties>
+      <property name="Name" value="enemy_big_baby_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="24">
+    <properties>
+      <property name="Name" value="enemy_baby_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="25">
+    <properties>
+      <property name="Name" value="enemy_beer_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="26">
+    <properties>
+      <property name="Name" value="enemy_big_bed_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="27">
+    <properties>
+      <property name="Name" value="enemy_big_chef_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="28">
+    <properties>
+      <property name="Name" value="enemy_big_postman_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="29">
+    <properties>
+      <property name="Name" value="enemy_big_rabbit_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="30">
+    <properties>
+      <property name="Name" value="enemy_big_train_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="31">
+    <properties>
+      <property name="Name" value="enemy_eye_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="32">
+    <properties>
+      <property name="Name" value="enemy_head_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="33">
+    <properties>
+      <property name="Name" value="enemy_invader_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="34">
+    <properties>
+      <property name="Name" value="enemy_tap_actor" type="string" />
+    </properties>
+  </tile>
+  <tile id="35">
+    <properties>
+      <property name="Name" value="enemy_toilet_actor" type="string" />
+    </properties>
+  </tile>
 </tileset>
