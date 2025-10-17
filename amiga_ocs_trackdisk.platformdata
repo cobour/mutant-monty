@@ -9,7 +9,7 @@
   "Uses24BitColor": null,
   "SpriteColorBank": 1,
   "SScan2": false,
-  "SmoothScrolling": false,
+  "SmoothScrolling": true,
   "FMode": 0,
   "Width": 320,
   "XOffset": 0,
