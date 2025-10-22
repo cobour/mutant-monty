@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="6">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
@@ -10,14 +10,14 @@
    <property name="foreground" type="bool" value="false"/>
   </properties>
   <data encoding="csv">
-513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,534,534,534,534,
+534,534,534,534,513,513,513,513,513,513,513,513,513,513,513,513,534,534,534,534,
 534,534,534,534,513,513,513,513,513,513,513,513,513,513,513,513,534,513,534,534,
 534,534,534,534,513,513,513,513,513,513,513,513,513,513,513,513,513,513,534,534,
-534,534,534,534,513,539,539,539,539,513,513,513,513,513,513,546,534,534,534,534,
+534,534,534,513,513,539,539,539,539,513,513,513,513,513,513,546,534,534,534,534,
 534,534,534,513,513,513,545,513,545,513,513,513,513,513,546,539,539,539,539,539,
 534,534,534,513,513,513,562,513,545,513,513,513,513,513,545,513,513,539,539,539,
-534,534,534,513,539,539,539,513,564,539,539,513,513,513,562,513,513,513,539,539,
-534,534,513,513,513,545,513,513,513,513,564,563,513,546,566,513,513,513,539,539,
+534,534,513,513,539,539,539,513,564,539,539,513,513,513,562,513,513,513,539,539,
+534,513,513,513,513,545,513,513,513,513,564,563,513,546,566,513,513,513,539,539,
 513,513,513,513,546,566,513,513,513,513,513,545,513,545,513,513,513,513,513,513,
 513,513,543,543,566,513,513,513,513,513,513,513,513,513,513,513,513,513,513,539
 </data>
@@ -79,5 +79,46 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="events"/>
+ <objectgroup id="6" name="events">
+  <object id="1" template="../templates/enemy_eye_actor.tx" x="240" y="144">
+   <properties>
+    <property name="var1" value="2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="230"/>
+    <property name="var4" value="280"/>
+   </properties>
+  </object>
+  <object id="2" template="../templates/enemy_eye_actor.tx" x="192" y="120">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="-3"/>
+    <property name="var3" value="38"/>
+    <property name="var4" value="155"/>
+   </properties>
+  </object>
+  <object id="3" template="../templates/enemy_eye_actor.tx" x="112" y="128">
+   <properties>
+    <property name="var1" value="-1"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="104"/>
+    <property name="var4" value="154"/>
+   </properties>
+  </object>
+  <object id="4" template="../templates/enemy_eye_actor.tx" x="48" y="112">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="1"/>
+    <property name="var3" value="86"/>
+    <property name="var4" value="150"/>
+   </properties>
+  </object>
+  <object id="5" template="../templates/enemy_eye_actor.tx" x="144" y="23">
+   <properties>
+    <property name="var1" value="-2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="72"/>
+    <property name="var4" value="248"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

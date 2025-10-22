@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="5">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
@@ -79,5 +79,38 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="events"/>
+ <objectgroup id="6" name="events">
+  <object id="1" template="../templates/enemy_big_postman_actor.tx" x="128" y="53">
+   <properties>
+    <property name="var1" value="2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="119"/>
+    <property name="var4" value="200"/>
+   </properties>
+  </object>
+  <object id="2" template="../templates/enemy_big_postman_actor.tx" x="224" y="90">
+   <properties>
+    <property name="var1" value="-2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="216"/>
+    <property name="var4" value="270"/>
+   </properties>
+  </object>
+  <object id="3" template="../templates/enemy_big_postman_actor.tx" x="224" y="154">
+   <properties>
+    <property name="var1" value="2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="0"/>
+    <property name="var4" value="320"/>
+   </properties>
+  </object>
+  <object id="4" template="../templates/enemy_big_postman_actor.tx" x="40" y="118">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="2"/>
+    <property name="var3" value="67"/>
+    <property name="var4" value="137"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

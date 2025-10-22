@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="6">
  <tileset firstgid="1" source="../Actors.tsx"/>
  <tileset firstgid="257" source="../Blocks.tsx"/>
  <tileset firstgid="513" source="tileset/mm_tileset.tileset.tsx"/>
@@ -19,7 +19,7 @@
 534,534,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,513,534,534,
 534,534,513,513,536,536,536,536,534,513,513,534,536,536,536,536,513,513,534,534,
 534,534,513,513,513,540,540,540,540,540,540,540,540,540,540,513,513,513,534,534,
-513,513,513,513,513,513,540,540,540,540,540,540,540,540,513,513,513,513,513,513
+534,534,513,513,513,513,540,540,540,540,540,540,540,540,513,513,513,513,534,534
 </data>
  </layer>
  <layer id="2" name="blocks" width="20" height="10">
@@ -79,5 +79,46 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="events"/>
+ <objectgroup id="6" name="events">
+  <object id="1" template="../templates/enemy_tap_actor.tx" x="122" y="111">
+   <properties>
+    <property name="var1" value="2"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="70"/>
+    <property name="var4" value="156"/>
+   </properties>
+  </object>
+  <object id="2" template="../templates/enemy_tap_actor.tx" x="162" y="111">
+   <properties>
+    <property name="var1" value="3"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="150"/>
+    <property name="var4" value="254"/>
+   </properties>
+  </object>
+  <object id="3" template="../templates/enemy_beer_actor.tx" x="48" y="159">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="-2"/>
+    <property name="var3" value="106"/>
+    <property name="var4" value="153"/>
+   </properties>
+  </object>
+  <object id="4" template="../templates/enemy_beer_actor.tx" x="256" y="159">
+   <properties>
+    <property name="var1" value="0"/>
+    <property name="var2" value="-2"/>
+    <property name="var3" value="106"/>
+    <property name="var4" value="153"/>
+   </properties>
+  </object>
+  <object id="5" template="../templates/enemy_beer_actor.tx" x="24" y="31">
+   <properties>
+    <property name="var1" value="1"/>
+    <property name="var2" value="0"/>
+    <property name="var3" value="32"/>
+    <property name="var4" value="278"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
