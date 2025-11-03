@@ -98,7 +98,7 @@
   </object>
   <object id="3" template="../templates/enemy_whitemask_actor.tx" x="49" y="142" width="14" height="12">
    <properties>
-    <property name="var1" value="2"/>
+    <property name="var1" value="1"/>
     <property name="var2" value="0"/>
     <property name="var3" value="26"/>
     <property name="var4" value="136"/>

@@ -83,7 +83,7 @@
   <object id="2" template="../templates/enemy_big_blue_actor.tx" x="100" y="131">
    <properties>
     <property name="var1" value="0"/>
-    <property name="var2" value="3"/>
+    <property name="var2" value="2"/>
     <property name="var3" value="30"/>
     <property name="var4" value="134"/>
    </properties>

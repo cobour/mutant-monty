@@ -83,6 +83,13 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "door": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},

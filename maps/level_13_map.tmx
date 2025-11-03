@@ -104,7 +104,7 @@
     <property name="var4" value="298"/>
    </properties>
   </object>
-  <object id="4" template="../templates/enemy_chip_actor.tx" x="298" y="111">
+  <object id="4" template="../templates/enemy_chip_actor.tx" x="306" y="111">
    <properties>
     <property name="var1" value="0"/>
     <property name="var2" value="-2"/>
