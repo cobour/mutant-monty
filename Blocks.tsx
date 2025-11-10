@@ -56,21 +56,13 @@
       <property name="Name" value="exit_closed_left_top_1_block" type="string" />
     </properties>
   </tile>
-  <tile id="11">
-    <properties>
-      <property name="Name" value="exit_closed_left_top_2_block" type="string" />
-    </properties>
-  </tile>
+  <tile id="11" />
   <tile id="12">
     <properties>
       <property name="Name" value="exit_closed_right_top_1_block" type="string" />
     </properties>
   </tile>
-  <tile id="13">
-    <properties>
-      <property name="Name" value="exit_closed_right_top_2_block" type="string" />
-    </properties>
-  </tile>
+  <tile id="13" />
   <tile id="14">
     <properties>
       <property name="Name" value="exit_open_left_top_0_block" type="string" />
@@ -96,21 +88,13 @@
       <property name="Name" value="exit_open_left_top_1_block" type="string" />
     </properties>
   </tile>
-  <tile id="19">
-    <properties>
-      <property name="Name" value="exit_open_left_top_2_block" type="string" />
-    </properties>
-  </tile>
+  <tile id="19" />
   <tile id="20">
     <properties>
       <property name="Name" value="exit_open_right_top_1_block" type="string" />
     </properties>
   </tile>
-  <tile id="21">
-    <properties>
-      <property name="Name" value="exit_open_right_top_2_block" type="string" />
-    </properties>
-  </tile>
+  <tile id="21" />
   <tile id="22">
     <properties>
       <property name="Name" value="gold_shimmer_0_block" type="string" />
@@ -194,6 +178,86 @@
   <tile id="38">
     <properties>
       <property name="Name" value="liftchain_empty_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="39">
+    <properties>
+      <property name="Name" value="exit_opening_left_top_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="40">
+    <properties>
+      <property name="Name" value="exit_opening_left_top_1_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="41">
+    <properties>
+      <property name="Name" value="exit_opening_left_top_2_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="42">
+    <properties>
+      <property name="Name" value="exit_opening_left_top_3_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="43">
+    <properties>
+      <property name="Name" value="exit_opening_right_top_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="44">
+    <properties>
+      <property name="Name" value="exit_opening_right_top_1_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="45">
+    <properties>
+      <property name="Name" value="exit_opening_right_top_2_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="46">
+    <properties>
+      <property name="Name" value="exit_opening_right_top_3_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="47">
+    <properties>
+      <property name="Name" value="exit_opening_left_bottom_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="48">
+    <properties>
+      <property name="Name" value="exit_opening_left_bottom_1_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="49">
+    <properties>
+      <property name="Name" value="exit_opening_left_bottom_2_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="50">
+    <properties>
+      <property name="Name" value="exit_opening_left_bottom_3_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="51">
+    <properties>
+      <property name="Name" value="exit_opening_right_bottom_0_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="52">
+    <properties>
+      <property name="Name" value="exit_opening_right_bottom_1_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="53">
+    <properties>
+      <property name="Name" value="exit_opening_right_bottom_2_block" type="string" />
+    </properties>
+  </tile>
+  <tile id="54">
+    <properties>
+      <property name="Name" value="exit_opening_right_bottom_3_block" type="string" />
     </properties>
   </tile>
 </tileset>

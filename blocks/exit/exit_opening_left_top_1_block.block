@@ -1,17 +1,17 @@
 {
-  "BlockImagePath": "blocks\\exit\\gfx\\EXIT_001.png",
-  "X": 64,
+  "BlockImagePath": "blocks\\exit\\gfx\\EXit_v02open_2.png",
+  "X": 32,
   "Y": 0,
   "Divert_PlayerCollision": null,
   "Divert_PlayerHit": null,
   "Divert_PlayerOverlap": null,
   "Divert_ProjectileCollision": null,
-  "OnAnimationFrame": "exit_closed_left_top_0_block",
+  "OnAnimationFrame": "exit_opening_left_top_2_block",
   "FastBlit": false,
   "IsInvisible": false,
   "ReplaceTileProperties": true,
   "LinkedMap": "",
-  "BlockSolidType": "Solid",
+  "BlockSolidType": "NotSolid",
   "PlayerCollisionOverride": "Default",
   "ProjectileCollisionOverride": "Default",
   "PaletteLines": [
@@ -37,5 +37,5 @@
   "ZeroIsTransparent": false,
   "PaletteLineNeo": 0,
   "BlockTag": null,
-  "TileID": 11
+  "TileID": 40
 }

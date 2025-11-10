@@ -1,12 +1,12 @@
 {
   "BlockImagePath": "blocks\\exit\\gfx\\EXit_v02open_2.png",
-  "X": 144,
-  "Y": 0,
+  "X": 112,
+  "Y": 16,
   "Divert_PlayerCollision": null,
   "Divert_PlayerHit": null,
   "Divert_PlayerOverlap": null,
   "Divert_ProjectileCollision": null,
-  "OnAnimationFrame": "exit_open_right_top_1_block",
+  "OnAnimationFrame": "exit_open_right_bottom_0_block",
   "FastBlit": false,
   "IsInvisible": false,
   "ReplaceTileProperties": true,
@@ -37,5 +37,5 @@
   "ZeroIsTransparent": false,
   "PaletteLineNeo": 0,
   "BlockTag": null,
-  "TileID": 16
+  "TileID": 54
 }

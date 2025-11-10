@@ -1,7 +1,7 @@
 {
-  "BlockImagePath": "blocks\\exit\\gfx\\EXIT_001.png",
-  "X": 16,
-  "Y": 48,
+  "BlockImagePath": "blocks\\exit\\gfx\\EXit_v02open_2.png",
+  "X": 144,
+  "Y": 16,
   "Divert_PlayerCollision": "",
   "Divert_PlayerHit": null,
   "Divert_PlayerOverlap": null,
