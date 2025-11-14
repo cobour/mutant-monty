@@ -7,7 +7,7 @@
   "Divert_PlayerOverlap": null,
   "Divert_ProjectileCollision": null,
   "OnAnimationFrame": "exit_opening_right_bottom_1_block",
-  "FastBlit": false,
+  "FastBlit": true,
   "IsInvisible": false,
   "ReplaceTileProperties": true,
   "LinkedMap": "",
