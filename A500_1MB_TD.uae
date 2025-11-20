@@ -11,7 +11,7 @@ win32.hardfile_path=./
 ; host-specific
 win32.middle_mouse=true
 win32.soundcard=4
-win32.soundcardname=Primärer Soundtreiber
+win32.soundcardname=Primï¿½rer Soundtreiber
 win32.soundcardname.utf8=PrimÃ¤rer Soundtreiber
 ; common
 use_gui=no
@@ -25,7 +25,7 @@ rtc_file=
 kickshifter=false
 scsidevice_disable=false
 floppy_volume=33
-floppy0=Z:\mutant-monty\output\amiga_ocs_trackdisk\mutant-monty.adf
+floppy0=Z:\mutant-monty\output\amiga_ocs_trackdisk\mutant_monty.adf
 floppy0sound=1
 floppy0soundvolume_disk=33
 floppy0soundvolume_empty=33

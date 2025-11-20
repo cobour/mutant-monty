@@ -34,7 +34,8 @@
       "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "MaxValue": 9,
+      "Characters": 40,
+      "MaxValue": 40,
       "CanBeRightToLeft": false
     }
   ],

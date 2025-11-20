@@ -1,6 +1,6 @@
 {
   "TargetPlatform": "amiga_ocs_trackdisk",
-  "StartupCodeBlock": "main_begin_codeblock",
+  "StartupCodeBlock": "test_begin_codeblock",
   "Recompile": true,
   "DataVersion": 3,
   "Commands": [
@@ -64,7 +64,7 @@
       "Neo_Select": false,
       "OnPress": "pause",
       "OnRelease": null,
-      "buttonState": 8
+      "buttonState": 128
     }
   ],
   "AnimationMetaData": {},
@@ -113,6 +113,5 @@
   "MDSoundDriver": "MDSDRV",
   "SplashScreenFrames": 50,
   "TestLevel": null,
-  "SafetyRails": true,
-  "NGH": 21317
+  "SafetyRails": true
 }
