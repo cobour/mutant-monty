@@ -1,9 +1,9 @@
 [all]
-author=
-copyright_month=
-copyright_year=
-description=
-project_name=
-project_name_international=
-publisher=
-version=
+author=Invent, Virgill and CoBour
+copyright_month=12
+copyright_year=2025
+description=Remake of 8-bit classic Mutant Monty
+project_name=Mutant Monty
+project_name_international=Mutant Monty
+publisher=Invent, Virgill and CoBour
+version=0.9.0
