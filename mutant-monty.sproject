@@ -1,6 +1,6 @@
 {
   "TargetPlatform": "amiga_ocs_trackdisk",
-  "StartupCodeBlock": "test_begin_codeblock",
+  "StartupCodeBlock": "main_begin_codeblock",
   "Recompile": true,
   "DataVersion": 3,
   "Commands": [
@@ -103,6 +103,11 @@
       "IsMonoSpaced": false,
       "LineHeight": 8,
       "SpaceWidth": 8
+    },
+    "tall": {
+      "IsMonoSpaced": false,
+      "LineHeight": 9,
+      "SpaceWidth": 9
     }
   },
   "SplashScreen": null,
