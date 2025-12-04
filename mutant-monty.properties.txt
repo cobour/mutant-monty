@@ -6,4 +6,4 @@ description=Remake of 8-bit classic Mutant Monty
 project_name=Mutant Monty
 project_name_international=Mutant Monty
 publisher=Invent, Virgill and CoBour
-version=0.9.0
+version=1.0.0-rc1
